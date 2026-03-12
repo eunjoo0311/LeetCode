@@ -1,13 +1,13 @@
 function solution(d, budget) {
-    d.sort((a,b) => a-b)
+    let price = 0;
+    let count = 0;
     
-    let sum = 0;
-    let count = 0
-    
-    for(const x of d) {
-        if (sum + x > budget) break;
-        sum+= x
-        count++
+   d.sort((a,b) => a-b)
+    for (let i of d) {
+        if(budget - price >= i) {
+            price += i
+            count ++
+        }
     }
     return count
 }
