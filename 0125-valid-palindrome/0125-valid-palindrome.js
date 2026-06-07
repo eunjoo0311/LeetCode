@@ -3,9 +3,12 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    const cleaned = s.toLowerCase().replace(/[^a-z0-9]/g, '')
+    const letters = s.toLowerCase().replaceAll(/[^a-z0-9]/g, '')
 
-    const reversed = cleaned.split('').reverse().join('')
-
-    return cleaned === reversed ? true : false
+    for(let i = 0; i<letters.length / 2; i++) {
+        if(letters[i] !== letters[letters.length - 1 - i]) {
+            return false
+        }
+    }
+    return true
 };
