@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/eunjoo0311/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/eunjoo0311/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/eunjoo0311/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/eunjoo0311/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 ## Hash Table
@@ -44,4 +45,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/eunjoo0311/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 <!---LeetCode Topics End-->
