@@ -2,21 +2,18 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function (s) {
-    const map = new Map();
+var lengthOfLongestSubstring = function(s) {
+    const set = new Set()
+    let answer = 0;
     let left = 0;
-    let max = 0;
 
-    for (let right = 0; right < s.length; right++) {
-        const ch = s[right];
-
-        if (map.has(ch) && map.get(ch) >= left) {
-            left = map.get(ch) + 1;
+    for(let right = 0; right < s.length; right++) {
+        while(set.has(s[right])) {
+            set.delete(s[left])
+            left++
         }
-
-        map.set(ch, right);
-        max = Math.max(max, right - left + 1);
+        set.add(s[right])
+        answer = Math.max(answer, right - left + 1)
     }
-
-    return max;
+    return answer
 };
