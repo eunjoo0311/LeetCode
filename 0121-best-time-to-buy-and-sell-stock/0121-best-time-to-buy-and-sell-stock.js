@@ -3,16 +3,14 @@
  * @return {number}
  */
 var maxProfit = function (prices) {
-    let minPrice = Infinity; // 지금까지의 최저 가격
-    let maxProfit = 0;       // 최대 이익
+    let minPrices = prices[0]
+    let maxProfit = 0
 
-    for (let price of prices) {
-        if (price < minPrice) {
-            minPrice = price;
-        } else {
-            maxProfit = Math.max(maxProfit, price - minPrice);
-        }
+    for (let i = 1; i < prices.length; i++) {
+        const profit = prices[i] - minPrices
+
+        maxProfit = Math.max(maxProfit, profit)
+        minPrices = Math.min(prices[i], minPrices)
     }
-
-    return maxProfit;
+    return maxProfit
 };
