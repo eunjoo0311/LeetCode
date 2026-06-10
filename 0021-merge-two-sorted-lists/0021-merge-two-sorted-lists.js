@@ -26,5 +26,6 @@ var mergeTwoLists = function(list1, list2) {
     }
     if(list1 !== null) cur.next = list1
     if(list2 !== null) cur.next = list2
+
     return dummy.next
 };
