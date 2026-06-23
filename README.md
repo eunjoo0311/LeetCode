@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/eunjoo0311/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/eunjoo0311/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0056-merge-intervals/) | Medium |
 | [0217-contains-duplicate](https://github.com/eunjoo0311/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/eunjoo0311/LeetCode/tree/main/0242-valid-anagram/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -60,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/eunjoo0311/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -70,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/eunjoo0311/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
