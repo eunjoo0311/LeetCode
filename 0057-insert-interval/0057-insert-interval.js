@@ -4,29 +4,29 @@
  * @return {number[][]}
  */
 var insert = function(intervals, newInterval) {
-    // intervals 정렬
-    intervals.push(newInterval)
-    intervals.sort((a,b) => a[0]- b[0])
-
+    // 담아둘 배열, index, 마지막 값 잡기
     const answer = []
+    let i = 0;
+    let n = intervals.length
 
-    for(let interval of intervals) {
-        const curStart = interval[0]
-        const curEnd= interval[1]
-
-        if(answer.length === 0) {
-            answer.push(interval)
-            continue
-        }
-
-        const last = answer[answer.length - 1]
-        const lastEnd = last[1]
-
-        if(lastEnd >= curStart) {
-            last[1] = Math.max(lastEnd, curEnd)
-        } else {
-            answer.push(interval)
-        }
+    // 합치기 전 배열 푸시하기
+    while(i < n && intervals[i][1] < newInterval[0]) {
+        answer.push(intervals[i])
+        i++
     }
+    // 겹치기 
+    while(i < n && intervals[i][0] <= newInterval[1]) {
+        newInterval[0] = Math.min(newInterval[0], intervals[i][0])
+        newInterval[1] = Math.max(newInterval[1], intervals[i][1])
+        i++
+    }
+    answer.push(newInterval)
+
+    // 후 부분 배열 푸시하기
+    while(i < n) {
+        answer.push(intervals[i])
+        i++
+    }
+
     return answer
 };
