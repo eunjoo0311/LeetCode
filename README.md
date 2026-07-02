@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/eunjoo0311/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0417-pacific-atlantic-water-flow](https://github.com/eunjoo0311/LeetCode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/eunjoo0311/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/eunjoo0311/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/eunjoo0311/LeetCode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -49,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/eunjoo0311/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -76,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/eunjoo0311/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
 | [0055-jump-game](https://github.com/eunjoo0311/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -231,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
@@ -252,4 +257,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 <!---LeetCode Topics End-->
