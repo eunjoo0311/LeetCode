@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
+| [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -269,4 +270,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/eunjoo0311/LeetCode/tree/main/0743-network-delay-time/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 <!---LeetCode Topics End-->
