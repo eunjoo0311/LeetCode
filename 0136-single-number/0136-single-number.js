@@ -2,16 +2,11 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function (nums) {
-    const map = {}
+var singleNumber = function(nums) {
+    let result = 0;
 
-    for (let num of nums) {
-        map[num] = (map[num] || 0) + 1
+    for(let num of nums) {
+        result = result ^ num
     }
-
-    for (let num of nums) {
-        if (map[num] === 1) {
-            return num
-        }
-    }
+    return result
 };
