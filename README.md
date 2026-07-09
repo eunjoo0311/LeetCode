@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/eunjoo0311/LeetCode/tree/main/0079-word-search/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/eunjoo0311/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/eunjoo0311/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0136-single-number](https://github.com/eunjoo0311/LeetCode/tree/main/0136-single-number/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0200-number-of-islands](https://github.com/eunjoo0311/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -280,4 +281,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/eunjoo0311/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0136-single-number](https://github.com/eunjoo0311/LeetCode/tree/main/0136-single-number/) | Easy |
 <!---LeetCode Topics End-->
