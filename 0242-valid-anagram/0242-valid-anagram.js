@@ -5,25 +5,20 @@
  */
 var isAnagram = function(s, t) {
     if(s.length !== t.length) return false
+
     const map = {}
 
     for(let char of s) {
-        if(map[char] === undefined) {
-            map[char] = 1
-        } else {
-            map[char]++
-        }
+        map[char] = (map[char] || 0) + 1
     }
 
     for(let char of t) {
-        if(map[char] === undefined) {
-            return false;
-        }
+        if(map[char] === undefined) return false
+
         map[char]--
         if(map[char] === 0) {
             delete map[char]
         }
     }
-
-    return Object.keys(map).length === 0
+    return true
 };
