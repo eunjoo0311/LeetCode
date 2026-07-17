@@ -4,19 +4,19 @@
  */
 var maxArea = function(height) {
     let left = 0;
-    let right = height.length - 1;
-    let result = 0;
-
+    let right = height.length - 1
+    let answer = 0
     while(left < right) {
-        let h = Math.min(height[left], height[right])
-        let w = right - left
-        result = Math.max(result, h * w)
+        const h = Math.min(height[left], height[right])
+        const w = right- left
 
-        if(height[left] < height[right]) {
+        answer = Math.max(answer, h * w)
+
+        if(height[left]< height[right]) {
             left++
-        }else {
+        } else {
             right--
         }
     }
-    return result
+    return answer
 };
