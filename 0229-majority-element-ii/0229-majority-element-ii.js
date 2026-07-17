@@ -4,17 +4,15 @@
  */
 var majorityElement = function(nums) {
     const map = {}
-    const answer = []
-
-    for(const num of nums) {
+    const result = []
+    for(let num of nums) {
         map[num] = (map[num] || 0) + 1
     }
 
-    for(const num in map) {
+    for(let num in map) {
         if(map[num] > nums.length / 3) {
-            answer.push(Number(num))
+            result.push(Number(num))
         }
     }
-
-    return answer
+    return result
 };
