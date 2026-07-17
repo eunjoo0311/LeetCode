@@ -16,9 +16,11 @@ var isAnagram = function(s, t) {
         if(map[char] === undefined) return false
 
         map[char]--
+
         if(map[char] === 0) {
             delete map[char]
         }
     }
+
     return true
 };
