@@ -2,19 +2,19 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var productExceptSelf = function(nums) {
-    const n = nums.length
-    const array = new Array(n)
-
-    array[0] = 1;
-    for(let i = 1; i<n; i++) {
-        array[i] = array[i-1] * nums[i-1]
+var productExceptSelf = function (nums) {
+    const answer = []
+    let left = 1;
+    for (let i = 0; i < nums.length; i++) {
+        answer[i] = left
+        left *= nums[i]
     }
 
     let right = 1;
-    for(let i = n-1; i>=0; i--) {
-        array[i] *= right;
+    for (let i = nums.length - 1; i >= 0; i--) {
+        answer[i] *= right
         right *= nums[i]
     }
-    return array
+
+    return answer
 };
