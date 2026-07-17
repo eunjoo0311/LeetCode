@@ -8,7 +8,7 @@ var sortColors = function(nums) {
     for(let num of nums) {
         map[num] = (map[num] || 0) + 1
     }
-
+    
     let index = 0;
 
     for(let i = 0; i <= 2; i++) {
