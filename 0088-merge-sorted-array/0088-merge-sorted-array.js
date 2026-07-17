@@ -5,20 +5,19 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-var merge = function (nums1, m, nums2, n) {
-    let left = m - 1;
-    let right = n - 1;
-    let index = m + n - 1;
+var merge = function(nums1, m, nums2, n) {
+    let i = m - 1
+    let j = n - 1
+    let k = m + n - 1
 
-    while (right >= 0) {
-        if (left >= 0 && nums1[left] > nums2[right]) {
-            nums1[index] = nums1[left];
-            left--;
+    while(j >= 0) {
+        if(n >= 0 && nums1[i] > nums2[j]) {
+            nums1[k] = nums1[i]
+            i--
         } else {
-            nums1[index] = nums2[right];
-            right--;
+            nums1[k] = nums2[j]
+            j--
         }
-
-        index--;
+        k--
     }
 };
