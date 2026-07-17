@@ -3,10 +3,9 @@
  * @return {number[]}
  */
 var sortArray = function (nums) {
-    // 1 이하일경우 return
-    if (nums.length <= 1) return nums
+    if (nums.length <= 1) return nums;
 
-    const mid = Math.floor(nums.length / 2)
+    const mid = nums.length / 2
 
     const left = sortArray(nums.slice(0, mid))
     const right = sortArray(nums.slice(mid))
@@ -15,29 +14,30 @@ var sortArray = function (nums) {
 };
 
 function merge(left, right) {
-    const answer = []
+    const result = []
 
-    let i = 0;
-    let j = 0;
+    let leftIndex = 0;
+    let rightIndex = 0;
 
-    while (i < left.length && j < right.length) {
-        if (left[i] < right[j]) {
-            answer.push(left[i])
-            i++
+    while (leftIndex < left.length && rightIndex < right.length) {
+        if (left[leftIndex] < right[rightIndex]) {
+            result.push(left[leftIndex])
+            leftIndex++
         } else {
-            answer.push(right[j])
-            j++
+            result.push(right[rightIndex])
+            rightIndex++
         }
     }
 
-    while (i < left.length) {
-        answer.push(left[i])
-        i++
+    while (leftIndex < left.length) {
+        result.push(left[leftIndex])
+        leftIndex++
     }
 
-    while(j < right.length) {
-        answer.push(right[j])
-        j++
+    while (rightIndex < right.length) {
+        result.push(right[rightIndex])
+        rightIndex++
     }
-    return answer
+
+    return result
 }
