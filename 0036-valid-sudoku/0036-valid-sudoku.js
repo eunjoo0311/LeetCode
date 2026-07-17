@@ -7,20 +7,23 @@ var isValidSudoku = function(board) {
     const cols = Array.from({length : 9}, () => new Set())
     const boxes = Array.from({length : 9}, () => new Set())
 
-    for(let r = 0; r< 9; r++) {
-        for(let c = 0; c<9; c++) {
-            const val = board[r][c]
-            if(val === '.') continue;
+    for(let row = 0; row < 9; row++) {
+        for(let col = 0; col < 9; col++) {
+            const value = board[row][col]
 
-            const box = Math.floor(r/3) *3 + Math.floor(c/3)
-            if(rows[r].has(val)) return false
-            if(cols[c].has(val)) return false;
-            if(boxes[box].has(val)) return false;
+            if(value === '.') continue
 
-            rows[r].add(val)
-            cols[c].add(val)
-            boxes[box].add(val)
+            const box = Math.floor(row / 3) * 3 + Math.floor(col / 3)
+
+            if(rows[row].has(value) || cols[col].has(value) || boxes[box].has(value)) {
+                return false
+            }
+
+            rows[row].add(value)
+            boxes[box].add(value)
+            cols[col].add(value)
         }
     }
-    return true;
+
+    return true
 };
