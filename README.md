@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
+| [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## String
@@ -131,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/eunjoo0311/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0567-permutation-in-string](https://github.com/eunjoo0311/LeetCode/tree/main/0567-permutation-in-string/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/eunjoo0311/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -141,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
