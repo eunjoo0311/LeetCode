@@ -4,15 +4,11 @@
  * @return {number[]}
  */
 var topKFrequent = function(nums, k) {
-    const map = new Map()
+    const map = {}
 
-    for(const s of nums) {
-        const key = s
-
-        if(!map.has(key)) {
-            map.set(key,0)
-        }
-        map.set(key, map.get(key)+1 )
+    for(let num of nums) {
+        map[num] = (map[num] || 0) + 1
     }
-    return Array.from(map.entries()).sort((a,b) => b[1] - a[1]).slice(0, k).map(([num]) => num)
+
+    return Object.entries(map).sort((a,b) => b[1] - a[1]).slice(0, k).map(item => Number(item[0]))
 };
