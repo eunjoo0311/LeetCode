@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/eunjoo0311/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0143-reorder-list](https://github.com/eunjoo0311/LeetCode/tree/main/0143-reorder-list/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/eunjoo0311/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/eunjoo0311/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0682-baseball-game](https://github.com/eunjoo0311/LeetCode/tree/main/0682-baseball-game/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/eunjoo0311/LeetCode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/eunjoo0311/LeetCode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/eunjoo0311/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/eunjoo0311/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0304-range-sum-query-2d-immutable](https://github.com/eunjoo0311/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
@@ -408,4 +410,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/eunjoo0311/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/eunjoo0311/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
 <!---LeetCode Topics End-->
