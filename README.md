@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/eunjoo0311/LeetCode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/eunjoo0311/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0020-valid-parentheses](https://github.com/eunjoo0311/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/eunjoo0311/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0079-word-search](https://github.com/eunjoo0311/LeetCode/tree/main/0079-word-search/) | Medium |
 | [0125-valid-palindrome](https://github.com/eunjoo0311/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
@@ -188,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/eunjoo0311/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0143-reorder-list](https://github.com/eunjoo0311/LeetCode/tree/main/0143-reorder-list/) | Medium |
 | [0682-baseball-game](https://github.com/eunjoo0311/LeetCode/tree/main/0682-baseball-game/) | Easy |
 ## Tree
