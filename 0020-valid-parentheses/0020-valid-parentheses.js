@@ -3,19 +3,20 @@
  * @return {boolean}
  */
 var isValid = function (s) {
-    const answer = []
-    for (const x of s) {
-        if (x === "(" || x === "[" || x === "{") {
-            answer.push(x)
+    const stack = []
+
+    for (let char of s) {
+        if (char === '(' || char === '[' || char === '{') {
+            stack.push(char)
         } else {
-            const lastChar = answer.pop()
-            if ((x === ")" && lastChar !== "(") ||
-                (x === "}" && lastChar !== "{") ||
-                (x === "]" && lastChar !== "[")
-            ) {
-                return false
-            }
+            const lastChar = stack.pop()
+            if (
+                (char === ')' && lastChar !== '(')
+                || (char === ']' && lastChar !== '[')
+                || (char === '}' && lastChar !== '{')) return false
         }
+
     }
-    return answer.length === 0
+    return stack.length === 0
+
 };
