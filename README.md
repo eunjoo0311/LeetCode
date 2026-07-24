@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/eunjoo0311/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eunjoo0311/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0374-guess-number-higher-or-lower](https://github.com/eunjoo0311/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -433,4 +434,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/eunjoo0311/LeetCode/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/eunjoo0311/LeetCode/tree/main/0853-car-fleet/) | Medium |
 | [0901-online-stock-span](https://github.com/eunjoo0311/LeetCode/tree/main/0901-online-stock-span/) | Medium |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/eunjoo0311/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 <!---LeetCode Topics End-->
