@@ -16,11 +16,9 @@ var searchMatrix = function(matrix, target) {
         const row = Math.floor(mid / cols)
         const col = mid % cols
 
-        const value = matrix[row][col]
-
-        if(value === target) {
+        if(matrix[row][col] === target) {
             return true
-        } else if (value < target) {
+        } else if (matrix[row][col] < target) {
             left = mid + 1
         } else {
             right = mid - 1
