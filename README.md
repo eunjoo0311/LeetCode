@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/eunjoo0311/LeetCode/tree/main/0027-remove-element/) | Easy |
 | [0033-search-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/eunjoo0311/LeetCode/tree/main/0035-search-insert-position/) | Easy |
 | [0036-valid-sudoku](https://github.com/eunjoo0311/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0039-combination-sum](https://github.com/eunjoo0311/LeetCode/tree/main/0039-combination-sum/) | Medium |
 | [0049-group-anagrams](https://github.com/eunjoo0311/LeetCode/tree/main/0049-group-anagrams/) | Medium |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/eunjoo0311/LeetCode/tree/main/0035-search-insert-position/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/eunjoo0311/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eunjoo0311/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eunjoo0311/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
