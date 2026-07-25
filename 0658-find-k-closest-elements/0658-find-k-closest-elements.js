@@ -8,15 +8,16 @@ var findClosestElements = function(arr, k, x) {
     let left = 0
     let right = arr.length - 1
 
-    while(left < right) {
-        const mid = Math.floor((left + right) / 2)
+    while(right - left + 1 > k) {
+        const leftDistance = Math.abs(arr[left] - x)
+        const rightDistance = Math.abs(arr[right] - x)
 
-        if(x - arr[mid] > arr[mid + k] - x) {
-            left = mid + 1
+        if(leftDistance > rightDistance) {
+            left++
         } else {
-            right = mid
+            right--
         }
     }
 
-    return arr.slice(left, left + k)
+    return arr.slice(left, right + 1)
 };
