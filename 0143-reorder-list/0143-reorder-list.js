@@ -15,15 +15,18 @@ var reorderList = function(head) {
     let slow = head
     let fast = head
 
-    while(fast !== null && fast.next !== null) {
+    // 반 자르기
+    while(fast.next !== null && fast.next.next !== null) {
         slow = slow.next
         fast = fast.next.next
     }
 
+    // 자르기
     let second = slow.next
     slow.next = null
 
-    let prev = null
+    // 뒤에꺼 뒤집기
+    let prev= null
     let cur = second
 
     while(cur !== null) {
@@ -32,17 +35,20 @@ var reorderList = function(head) {
         prev = cur
         cur = next
     }
+
     second = prev
 
+    // 섞기
     let first = head
+    
     while(second !== null) {
-        let temp1 = first.next
-        let temp2 = second.next
+        const firstNext = first.next
+        const secondNext = second.next
 
         first.next = second
-        second.next = temp1
+        second.next= firstNext
 
-        first = temp1
-        second = temp2
+        first = firstNext
+        second= secondNext
     }
 };
