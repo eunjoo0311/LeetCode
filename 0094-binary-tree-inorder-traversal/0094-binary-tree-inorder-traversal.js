@@ -22,6 +22,5 @@ var inorderTraversal = function(root) {
     }
 
     inorder(root)
-
     return answer
 };
