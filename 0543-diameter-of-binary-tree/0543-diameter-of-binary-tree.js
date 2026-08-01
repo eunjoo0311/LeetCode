@@ -10,20 +10,20 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var diameterOfBinaryTree = function(root) {
-    let answer = 0;
+var diameterOfBinaryTree = function (root) {
+    let diameter = 0
 
-    function depth(node) {
-        if(node === null) return 0
-        const leftDepth = depth(node.left)
-        const rightDepth = depth(node.right)
+    function getDepth(root) {
+        if(root === null) return 0
 
-        answer = Math.max(leftDepth + rightDepth, answer)
+        const leftDepth = getDepth(root.left)
+        const rightDepth = getDepth(root.right)
+
+        diameter = Math.max(diameter, leftDepth + rightDepth)
 
         return Math.max(leftDepth, rightDepth) + 1
     }
 
-    depth(root)
-
-    return answer
+    getDepth(root)
+    return diameter
 };
