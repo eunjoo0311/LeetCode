@@ -14,13 +14,13 @@ var preorderTraversal = function(root) {
     const answer = []
 
     function preorder(node) {
-        if(node === null) return
-
+        if(node === null) return 
+        
         answer.push(node.val)
         preorder(node.left)
         preorder(node.right)
     }
-    preorder(root)
 
+    preorder(root)
     return answer
 };
