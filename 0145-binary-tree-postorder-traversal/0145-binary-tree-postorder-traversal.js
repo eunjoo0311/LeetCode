@@ -14,7 +14,7 @@ var postorderTraversal = function(root) {
     const answer = []
 
     function postorder(node) {
-        if(node === null) return
+        if(node === null) return null
 
         postorder(node.left)
         postorder(node.right)
