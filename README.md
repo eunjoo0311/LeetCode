@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/eunjoo0311/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0039-combination-sum](https://github.com/eunjoo0311/LeetCode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0040-combination-sum-ii/) | Medium |
+| [0046-permutations](https://github.com/eunjoo0311/LeetCode/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/eunjoo0311/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/eunjoo0311/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/eunjoo0311/LeetCode/tree/main/0055-jump-game/) | Medium |
@@ -362,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/eunjoo0311/LeetCode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0040-combination-sum-ii/) | Medium |
+| [0046-permutations](https://github.com/eunjoo0311/LeetCode/tree/main/0046-permutations/) | Medium |
 | [0077-combinations](https://github.com/eunjoo0311/LeetCode/tree/main/0077-combinations/) | Medium |
 | [0078-subsets](https://github.com/eunjoo0311/LeetCode/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/eunjoo0311/LeetCode/tree/main/0079-word-search/) | Medium |
