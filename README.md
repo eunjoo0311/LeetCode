@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
 ## Hash Table
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/eunjoo0311/LeetCode/tree/main/0039-combination-sum/) | Medium |
 | [0079-word-search](https://github.com/eunjoo0311/LeetCode/tree/main/0079-word-search/) | Medium |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -411,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/eunjoo0311/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/eunjoo0311/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -447,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0136-single-number](https://github.com/eunjoo0311/LeetCode/tree/main/0136-single-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/eunjoo0311/LeetCode/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -486,4 +490,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/eunjoo0311/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 <!---LeetCode Topics End-->
