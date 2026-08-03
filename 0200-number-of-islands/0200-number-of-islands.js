@@ -3,12 +3,14 @@
  * @return {number}
  */
 var numIslands = function (grid) {
-    let count = 0
-
     const rows = grid.length
     const cols = grid[0].length
+
+    let count = 0
+
     const dfs = (row, col) => {
-        if (row < 0 || row >= rows || col < 0 || col >= cols || grid[row][col] === '0') return false
+        if (row < 0 || row >= rows || col < 0 || col >= cols) return
+        if (grid[row][col] === '0') return
 
         grid[row][col] = '0'
 
@@ -26,6 +28,5 @@ var numIslands = function (grid) {
             }
         }
     }
-
     return count
 };
