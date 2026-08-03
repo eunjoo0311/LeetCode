@@ -13,13 +13,29 @@
  */
 var isSameTree = function(p, q) {
     // dfs
-    const dfs = (a,b) => {
-        if(a === null && b === null) return true
+    // const dfs = (a,b) => {
+    //     if(a === null && b === null) return true
+    //     if(a === null || b === null) return false
+    //     if(a.val !== b.val) return false
+
+    //     return dfs(a.left, b.left) && dfs(a.right, b.right)
+    // }
+
+    // return dfs(p, q)
+
+    // bfs
+    const queue = [[p,q]]
+
+    while(queue.length > 0) {
+        const [a,b] = queue.shift()
+
+        if(a === null && b === null) continue
         if(a === null || b === null) return false
         if(a.val !== b.val) return false
 
-        return dfs(a.left, b.left) && dfs(a.right, b.right)
+        queue.push([a.left, b.left])
+        queue.push([a.right, b.right])
     }
 
-    return dfs(p, q)
+    return true
 };
