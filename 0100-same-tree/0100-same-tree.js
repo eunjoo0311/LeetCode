@@ -12,10 +12,14 @@
  * @return {boolean}
  */
 var isSameTree = function(p, q) {
-    if(p === null && q === null) return true
-    if(p === null || q === null) return false
-    if(p.val !== q.val) return false
+    // dfs
+    const dfs = (a,b) => {
+        if(a === null && b === null) return true
+        if(a === null || b === null) return false
+        if(a.val !== b.val) return false
 
+        return dfs(a.left, b.left) && dfs(a.right, b.right)
+    }
 
-    return isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
+    return dfs(p, q)
 };
