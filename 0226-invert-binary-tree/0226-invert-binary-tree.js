@@ -12,16 +12,33 @@
  */
 var invertTree = function(root) {
     // dfs
-    const dfs = (node) => {
-        if(node === null) return
+    // const dfs = (node) => {
+    //     if(node === null) return
 
+    //     const temp = node.left
+    //     node.left = node.right
+    //     node.right = temp
+
+    //     if(node.left !== null) dfs(node.left)
+    //     if(node.right !== null) dfs(node.right)
+    // }
+    // dfs(root)
+    // return root
+
+    // bfs..
+    if(root === null) return null
+    const queue = [root]
+
+    while(queue.length > 0) {
+        const node = queue.shift()
+        
         const temp = node.left
         node.left = node.right
         node.right = temp
 
-        if(node.left !== null) dfs(node.left)
-        if(node.right !== null) dfs(node.right)
+        if(node.left !== null) queue.push(node.left)
+        if(node.right !== null) queue.push(node.right)
     }
-    dfs(root)
+
     return root
 };
