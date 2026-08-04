@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0682-baseball-game](https://github.com/eunjoo0311/LeetCode/tree/main/0682-baseball-game/) | Easy |
+| [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
 | [0704-binary-search](https://github.com/eunjoo0311/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/eunjoo0311/LeetCode/tree/main/0463-island-perimeter/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/eunjoo0311/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/eunjoo0311/LeetCode/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
 | [0743-network-delay-time](https://github.com/eunjoo0311/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/eunjoo0311/LeetCode/tree/main/0226-invert-binary-tree/) | Easy |
 | [0417-pacific-atlantic-water-flow](https://github.com/eunjoo0311/LeetCode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/eunjoo0311/LeetCode/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
 | [0743-network-delay-time](https://github.com/eunjoo0311/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -389,11 +392,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/eunjoo0311/LeetCode/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/eunjoo0311/LeetCode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/eunjoo0311/LeetCode/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/eunjoo0311/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/eunjoo0311/LeetCode/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
