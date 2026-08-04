@@ -11,10 +11,10 @@ var islandPerimeter = function (grid) {
         if (row < 0 || row >= rows || col < 0 || col >= cols) return 1
         if (grid[row][col] === 0) return 1
         if (grid[row][col] === -1) return 0
+
         grid[row][col] = -1
 
-        return dfs(row + 1, col) + dfs(row - 1, col) + dfs(row, col + 1) +
-            dfs(row, col - 1)
+        return dfs(row + 1, col) + dfs(row - 1, col) + dfs(row, col + 1) + dfs(row, col - 1)
     }
 
     for (let row = 0; row < rows; row++) {
@@ -24,4 +24,6 @@ var islandPerimeter = function (grid) {
             }
         }
     }
+
+    return 0
 };
