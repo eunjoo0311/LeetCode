@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
+| [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
+| [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
