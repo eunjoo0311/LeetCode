@@ -1,4 +1,4 @@
-class KthHeap {
+class kHeap {
     constructor(compare) {
         this.heap = []
         this.compare = compare
@@ -6,41 +6,50 @@ class KthHeap {
     size() {
         return this.heap.length
     }
+
     peek() {
         return this.heap[0]
     }
+
     push(value) {
         this.heap.push(value)
         this.bubbleUp()
     }
+
     pop() {
         if (this.size() === 0) return null
         if (this.size() === 1) return this.heap.pop()
+
         const top = this.heap[0]
         this.heap[0] = this.heap.pop()
         this.bubbleDown()
+
         return top
     }
+
     bubbleUp() {
         let index = this.size() - 1
-
         while (index > 0) {
-            let parentIndex = Math.floor((index - 1) / 2)
+            const parentIndex = Math.floor((index - 1) / 2)
 
             if (this.compare(this.heap[parentIndex], this.heap[index])) {
                 break
             }
+
             [this.heap[parentIndex], this.heap[index]] = [this.heap[index], this.heap[parentIndex]]
+
             index = parentIndex
         }
     }
+
     bubbleDown() {
         let index = 0
+
         while (true) {
             let targetIndex = index
 
-            let leftIndex = index * 2 + 1
-            let rightIndex = index * 2 + 2
+            const leftIndex = index * 2 + 1
+            const rightIndex = index * 2 + 2
 
             if (leftIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[leftIndex])) {
                 targetIndex = leftIndex
@@ -49,11 +58,13 @@ class KthHeap {
             if (rightIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[rightIndex])) {
                 targetIndex = rightIndex
             }
-
-            if (index === targetIndex) {
+            if (targetIndex === index) {
                 break
             }
-            [this.heap[index], this.heap[targetIndex]] = [this.heap[targetIndex], this.heap[index]]
+
+            [this.heap[targetIndex], this.heap[index]] =
+                [this.heap[index], this.heap[targetIndex]]
+
             index = targetIndex
         }
     }
@@ -65,10 +76,15 @@ class KthHeap {
  */
 var KthLargest = function (k, nums) {
     this.k = k
-    this.minHeap = new KthHeap((a, b) => a < b)
 
-    for (let num of nums) {
-        this.add(num)
+    this.heap = new kHeap((a,b) => a <=b)
+
+    for (const num of nums) {
+        this.heap.push(num)
+
+        if (this.heap.size() > k) {
+            this.heap.pop()
+        }
     }
 };
 
@@ -77,13 +93,13 @@ var KthLargest = function (k, nums) {
  * @return {number}
  */
 KthLargest.prototype.add = function (val) {
-    this.minHeap.push(val)
+    this.heap.push(val)
 
-    if (this.minHeap.size() > this.k) {
-        this.minHeap.pop()
+    if(this.heap.size() > this.k) {
+        this.heap.pop()
     }
 
-    return this.minHeap.peek()
+    return this.heap.peek()
 };
 
 /** 
