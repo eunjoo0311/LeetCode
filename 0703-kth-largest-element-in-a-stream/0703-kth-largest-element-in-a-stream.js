@@ -6,16 +6,13 @@ class kHeap {
     size() {
         return this.heap.length
     }
-
     peek() {
         return this.heap[0]
     }
-
     push(value) {
         this.heap.push(value)
         this.bubbleUp()
     }
-
     pop() {
         if (this.size() === 0) return null
         if (this.size() === 1) return this.heap.pop()
@@ -26,18 +23,15 @@ class kHeap {
 
         return top
     }
-
     bubbleUp() {
         let index = this.size() - 1
-        while (index > 0) {
-            const parentIndex = Math.floor((index - 1) / 2)
 
-            if (this.compare(this.heap[parentIndex], this.heap[index])) {
-                break
-            }
+        while (index > 0) {
+            let parentIndex = Math.floor((index - 1) / 2)
+
+            if (this.compare(this.heap[parentIndex], this.heap[index])) break
 
             [this.heap[parentIndex], this.heap[index]] = [this.heap[index], this.heap[parentIndex]]
-
             index = parentIndex
         }
     }
@@ -48,23 +42,20 @@ class kHeap {
         while (true) {
             let targetIndex = index
 
-            const leftIndex = index * 2 + 1
-            const rightIndex = index * 2 + 2
+            let leftIndex = index * 2 + 1
+            let rightIndex = index * 2 + 2
 
             if (leftIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[leftIndex])) {
                 targetIndex = leftIndex
             }
-
             if (rightIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[rightIndex])) {
                 targetIndex = rightIndex
             }
-            if (targetIndex === index) {
+            if(targetIndex === index) {
                 break
             }
 
-            [this.heap[targetIndex], this.heap[index]] =
-                [this.heap[index], this.heap[targetIndex]]
-
+            [this.heap[targetIndex], this.heap[index]] = [this.heap[index], this.heap[targetIndex]]
             index = targetIndex
         }
     }
@@ -77,12 +68,11 @@ class kHeap {
 var KthLargest = function (k, nums) {
     this.k = k
 
-    this.heap = new kHeap((a,b) => a <=b)
+    this.heap = new kHeap((a,b) => a <= b)
 
-    for (const num of nums) {
+    for(const num of nums) {
         this.heap.push(num)
-
-        if (this.heap.size() > k) {
+        if(this.heap.size() > this.k) {
             this.heap.pop()
         }
     }
@@ -94,7 +84,7 @@ var KthLargest = function (k, nums) {
  */
 KthLargest.prototype.add = function (val) {
     this.heap.push(val)
-
+    
     if(this.heap.size() > this.k) {
         this.heap.pop()
     }
