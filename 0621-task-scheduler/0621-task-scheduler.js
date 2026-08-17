@@ -6,24 +6,22 @@
 var leastInterval = function(tasks, n) {
     const map = {}
 
-    for(let task of tasks) {
+    for(const task of tasks) {
         map[task] = (map[task] || 0) + 1
     }
 
-    let maxCount = 0;
-    for(let task in map) {
+    let maxCount = 0
+
+    for(const task in map) {
         maxCount = Math.max(maxCount, map[task])
     }
 
-    let freqMaxCount = 0;
-
-    for(let task in map) {
-        if(map[task] === maxCount) {
-            freqMaxCount++
-        }
+    let freqMaxCount = 0
+    for(const task in map) {
+        if(map[task] === maxCount) freqMaxCount++
     }
 
-    let maxlength = (maxCount - 1) * (n + 1) + freqMaxCount
+    let maxLength = (maxCount - 1) * (n + 1) + freqMaxCount
 
-    return Math.max(tasks.length, maxlength)
+    return Math.max(tasks.length, maxLength)
 };
