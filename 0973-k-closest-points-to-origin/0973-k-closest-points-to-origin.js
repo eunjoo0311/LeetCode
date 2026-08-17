@@ -14,34 +14,28 @@ class kHeap {
         this.bubbleUp()
     }
     pop() {
-        if(this.size() === 0) return null
-        if(this.size() === 1) return this.heap.pop()
-        
+        if (this.size() === 0) return null
+        if (this.size() === 1) return this.heap.pop()
+
         const top = this.heap[0]
         this.heap[0] = this.heap.pop()
         this.bubbleDown()
 
         return top
     }
-
     bubbleUp() {
         let index = this.size() - 1
 
-        while(index > 0) {
+        while (index > 0) {
             let parentIndex = Math.floor((index - 1) / 2)
 
-            if(this.compare(this.heap[parentIndex], this.heap[index])) {
-                break
-            }
-            [this.heap[parentIndex] , this.heap[index]] = [this.heap[index] , this.heap[parentIndex]]
-            
+            if (this.compare(this.heap[parentIndex], this.heap[index])) break
+            [this.heap[parentIndex], this.heap[index]] = [this.heap[index], this.heap[parentIndex]]
             index = parentIndex
         }
     }
-
     bubbleDown() {
-        let index = 0;
-
+        let index = 0
         while(true) {
             let targetIndex = index
             let leftIndex = index * 2 + 1
@@ -50,16 +44,13 @@ class kHeap {
             if(leftIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[leftIndex])) {
                 targetIndex = leftIndex
             }
-
             if(rightIndex < this.size() && !this.compare(this.heap[targetIndex], this.heap[rightIndex])) {
                 targetIndex = rightIndex
             }
-
             if(targetIndex === index) {
                 break
             }
-            [this.heap[index], this.heap[targetIndex]] = [this.heap[targetIndex], this.heap[index]]
-
+            [this.heap[targetIndex], this.heap[index]] = [this.heap[index], this.heap[targetIndex]]
             index = targetIndex
         }
     }
@@ -70,20 +61,20 @@ class kHeap {
  * @param {number} k
  * @return {number[][]}
  */
-var kClosest = function(points, k) {
-    const getDistance = (point) => {
-        const [x, y] = point
-        return x * x + y * y
+var kClosest = function (points, k) {
+    const heap = new kHeap((a,b) => a[0] <= b[0])
+
+    for(const point of points) {
+        const [x,y] = point
+
+        heap.push([x * x + y * y, point])
     }
 
-    const maxHeap = new kHeap((a,b) => getDistance(a)> getDistance(b))
+    const answer = []
 
-    for(let point of points) {
-        maxHeap.push(point)
-
-        if(maxHeap.size() > k) {
-            maxHeap.pop()
-        }
+    for(let i = 0; i < k; i++) {
+        const temp = heap.pop()
+        answer.push(temp[1])
     }
-    return maxHeap.heap
+    return answer
 };
