@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/eunjoo0311/LeetCode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/eunjoo0311/LeetCode/tree/main/0567-permutation-in-string/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/eunjoo0311/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
 ## Two Pointers
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
+| [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -444,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
