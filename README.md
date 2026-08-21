@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/eunjoo0311/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 | [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -447,6 +449,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
 | [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
+| [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
