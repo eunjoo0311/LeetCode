@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
 | [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [0853-car-fleet](https://github.com/eunjoo0311/LeetCode/tree/main/0853-car-fleet/) | Medium |
 | [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
@@ -146,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/eunjoo0311/LeetCode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/eunjoo0311/LeetCode/tree/main/0567-permutation-in-string/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/eunjoo0311/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
@@ -182,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [0881-boats-to-save-people](https://github.com/eunjoo0311/LeetCode/tree/main/0881-boats-to-save-people/) | Medium |
 | [1405-longest-happy-string](https://github.com/eunjoo0311/LeetCode/tree/main/1405-longest-happy-string/) | Medium |
 ## Binary Search
@@ -444,6 +448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/eunjoo0311/LeetCode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0743-network-delay-time](https://github.com/eunjoo0311/LeetCode/tree/main/0743-network-delay-time/) | Medium |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
@@ -483,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
