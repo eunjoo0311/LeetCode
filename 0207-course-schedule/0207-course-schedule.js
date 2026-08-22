@@ -6,7 +6,7 @@
 var canFinish = function(numCourses, prerequisites) {
     const graph = Array.from({length : numCourses}, () => [])
 
-    for(let [a,b] of prerequisites) {
+    for(let [a,b ] of prerequisites) {
         graph[b].push(a)
     }
 
@@ -23,6 +23,7 @@ var canFinish = function(numCourses, prerequisites) {
                 return false
             }
         }
+
         visited[course] = 2
         return true
     }
