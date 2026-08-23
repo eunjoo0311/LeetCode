@@ -5,6 +5,7 @@
 var majorityElement = function(nums) {
     const map = {}
     const result = []
+
     for(let num of nums) {
         map[num] = (map[num] || 0) + 1
     }
@@ -14,5 +15,6 @@ var majorityElement = function(nums) {
             result.push(Number(num))
         }
     }
+
     return result
 };
