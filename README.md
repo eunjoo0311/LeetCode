@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/eunjoo0311/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1470-shuffle-the-array](https://github.com/eunjoo0311/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1929-concatenation-of-array](https://github.com/eunjoo0311/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
