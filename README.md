@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/eunjoo0311/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1046-last-stone-weight](https://github.com/eunjoo0311/LeetCode/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/eunjoo0311/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1470-shuffle-the-array](https://github.com/eunjoo0311/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/eunjoo0311/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [2707-extra-characters-in-a-string](https://github.com/eunjoo0311/LeetCode/tree/main/2707-extra-characters-in-a-string/) | Medium |
 | [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
@@ -137,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/eunjoo0311/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/eunjoo0311/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1834-single-threaded-cpu](https://github.com/eunjoo0311/LeetCode/tree/main/1834-single-threaded-cpu/) | Medium |
 | [3731-find-missing-elements](https://github.com/eunjoo0311/LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 ## String
@@ -544,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0912-sort-an-array](https://github.com/eunjoo0311/LeetCode/tree/main/0912-sort-an-array/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/eunjoo0311/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
