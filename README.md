@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0485-max-consecutive-ones](https://github.com/eunjoo0311/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/eunjoo0311/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0645-set-mismatch](https://github.com/eunjoo0311/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0682-baseball-game](https://github.com/eunjoo0311/LeetCode/tree/main/0682-baseball-game/) | Easy |
 | [0695-max-area-of-island](https://github.com/eunjoo0311/LeetCode/tree/main/0695-max-area-of-island/) | Medium |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/eunjoo0311/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0567-permutation-in-string](https://github.com/eunjoo0311/LeetCode/tree/main/0567-permutation-in-string/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0645-set-mismatch](https://github.com/eunjoo0311/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [0705-design-hashset](https://github.com/eunjoo0311/LeetCode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/eunjoo0311/LeetCode/tree/main/0706-design-hashmap/) | Easy |
 | [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/eunjoo0311/LeetCode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0621-task-scheduler](https://github.com/eunjoo0311/LeetCode/tree/main/0621-task-scheduler/) | Medium |
+| [0645-set-mismatch](https://github.com/eunjoo0311/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/eunjoo0311/LeetCode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0767-reorganize-string](https://github.com/eunjoo0311/LeetCode/tree/main/0767-reorganize-string/) | Medium |
 | [0853-car-fleet](https://github.com/eunjoo0311/LeetCode/tree/main/0853-car-fleet/) | Medium |
@@ -522,6 +525,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/eunjoo0311/LeetCode/tree/main/0136-single-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/eunjoo0311/LeetCode/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0645-set-mismatch](https://github.com/eunjoo0311/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/eunjoo0311/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
