@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/eunjoo0311/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/eunjoo0311/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0049-group-anagrams](https://github.com/eunjoo0311/LeetCode/tree/main/0049-group-anagrams/) | Medium |
+| [0067-add-binary](https://github.com/eunjoo0311/LeetCode/tree/main/0067-add-binary/) | Easy |
 | [0079-word-search](https://github.com/eunjoo0311/LeetCode/tree/main/0079-word-search/) | Medium |
 | [0125-valid-palindrome](https://github.com/eunjoo0311/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/eunjoo0311/LeetCode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
@@ -483,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/eunjoo0311/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
 | [0013-roman-to-integer](https://github.com/eunjoo0311/LeetCode/tree/main/0013-roman-to-integer/) | Easy |
+| [0067-add-binary](https://github.com/eunjoo0311/LeetCode/tree/main/0067-add-binary/) | Easy |
 | [0069-sqrtx](https://github.com/eunjoo0311/LeetCode/tree/main/0069-sqrtx/) | Easy |
 | [0070-climbing-stairs](https://github.com/eunjoo0311/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/eunjoo0311/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/eunjoo0311/LeetCode/tree/main/0067-add-binary/) | Easy |
 | [0682-baseball-game](https://github.com/eunjoo0311/LeetCode/tree/main/0682-baseball-game/) | Easy |
 | [0735-asteroid-collision](https://github.com/eunjoo0311/LeetCode/tree/main/0735-asteroid-collision/) | Medium |
 | [1094-car-pooling](https://github.com/eunjoo0311/LeetCode/tree/main/1094-car-pooling/) | Medium |
@@ -526,6 +529,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/eunjoo0311/LeetCode/tree/main/0067-add-binary/) | Easy |
 | [0078-subsets](https://github.com/eunjoo0311/LeetCode/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/eunjoo0311/LeetCode/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/eunjoo0311/LeetCode/tree/main/0136-single-number/) | Easy |
